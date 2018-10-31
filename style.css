@@ -1,0 +1,876 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 sans-serif;
+    color: #777;
+    background-color: #fff;
+    font-size:100%;
+}
+
+h1 {
+    color: #009f95;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.joseph-spin:hover {
+    animation: joseph-spin 2.5s infinite linear;
+}
+
+@keyframes joseph-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+#youtubegrid{
+
+}
+.bubbleheadings {
+    color: #009f95;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #fff url(Images/menu-icon.png) center;
+}
+
+#hi {
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+    margin-top: -13rem;
+    min-height: 300px;
+    height: auto;
+}
+
+#headerimgcontainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    bottom: -10px;
+}
+
+#headerimg {
+    width: 100%;
+}
+
+.captioninfo {
+    position: relative;
+    left: 0;
+    width: 80%;
+    text-align: center;
+    color: #000;
+    margin: auto;
+}
+
+    .captioninfo span.border {
+        background-color: #ffffff;
+        color: #00ded1;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+a:hover#menu-icon {
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.bgimg-0, .bgimg-1, .home, .bgimg-3, .bgimg-4, .bgimg-5 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-0 {
+    background-color: #fff;
+    min-height: 100%;
+}
+
+.bgimg-1 {
+    background-image: url("Images/background1.jpg");
+    min-height: 100%;
+}
+
+.home {
+    background-image: url("Images/music.jpg");
+    min-height: 600px;
+    opacity: 1;
+}
+
+.bgimg-3 {
+    background-image: url("Images/clothing.png");
+    min-height: 400px;
+    opacity: 1;
+}
+
+.bgimg-4 {
+    background-image: url("Images/gallery.jpg");
+    min-height: 400px;
+    opacity: 1;
+}
+
+.bgimg-5 {
+    background-image: url("Images/gallery.jpg");
+    min-height: 400px;
+    opacity: 1;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+    .caption span.border {
+        background-color: #ffffff;
+        color: #009f95;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+.captiontopcontent {
+    position: absolute;
+    left: 0;
+    top: 1%;
+    width: 100%;
+    color: #000;
+}
+
+    .captiontopcontent span.maintitle {
+        background-color: #ffffff;
+        color: #339999;
+        font-size: 48px;
+        letter-spacing: 8px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+        font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+        font-weight: 600;
+    }
+
+    .captiontopcontent span.mainheadertext {
+        background-color: #ffffff;
+        color: #339999;
+        font-size: 32px;
+        font-size:2rem;
+        letter-spacing: 4px;
+        border: 0px;
+        border-radius: 5px 5px 5px 5px;
+        font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+        font-weight: 600;
+    }
+
+
+
+
+#titlespacing {
+    margin: 10%;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+.overlay:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background: #00ded1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #5bdbc1, #009f95); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #5bdbc1, #009f95); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #5bdbc1, #009f95); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #5bdbc1, #009f95); /* Standard syntax (must be last) */
+    opacity: 0.90;
+}
+
+.overlay2:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    background: #00ded1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #5bdbc1, #009f95); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #5bdbc1, #009f95); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #5bdbc1, #009f95); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #5bdbc1, #009f95); /* Standard syntax (must be last) */
+    opacity: 0.50;
+}
+
+#icons {
+    width: 45px;
+    height: 45px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #939393;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper {
+    width: 790px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+#div1 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+#nav {
+    position: absolute;
+    top: 205px;
+    width: 150px;
+    height: 400px;
+    z-index: 2;
+    color: #fff;
+    font-size: 18px;
+}
+
+#mobilenav {
+    float: left;
+    padding-top: 0px;
+    display: none;
+    z-index:99;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+#redbubble {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#galleryresize {
+    width: 60%;
+    height: 60%;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#para1 {
+    color: #fff;
+    padding: 50px 180px;
+    text-align: justify;
+}
+
+#para2 {
+    color: #000;
+    padding: 50px 180px;
+    text-align: justify;
+}
+
+#textbubble {
+    color: #000;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#pageheading {
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+
+#clothing {
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+    height: auto;
+}
+
+#videos {
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#gallery {
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#webdesign {
+    color: #777;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+#spreadshirtdesigner {
+    height: 1000px;
+    width: 100%;
+    background-color: #fff;
+}
+
+#redbubbledesigns1 {
+    display: inline-block;
+    width: 1012px;
+    height: 529px;
+}
+
+#redbubbledesigns2 {
+    display: none;
+}
+
+#redbubbledesigns3 {
+    display: none;
+}
+
+#topcontent {
+    width: 100%;
+    height:60px;
+}
+
+#socialmedia1 {
+    color: #fff;
+    padding: 10px 80px;
+    text-align: right;
+    float: right;
+}
+
+#JMlogocontainer {
+    color: #fff;
+    padding: 10px 80px;
+    text-align: left;
+    float: left;
+}
+
+#JMlogo {
+    width: 60px;
+    height: 51px;
+}
+
+#videodimensions {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+#videowidthheight {
+    width: 100%;
+    height: 100%;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 1200px) {
+    #webdesign {
+        padding: 50px 100px;
+    }
+    
+    .captiontopcontent span.mainheadertext {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+        #redbubbledesigns3 {
+        display: none;
+    }
+
+    #redbubbledesigns2 {
+        display: inline-block;
+    }
+
+    #redbubbledesigns1 {
+        display: none;
+    }
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 774px) {
+    #titlespacing {
+    margin-top: 25%;
+}
+    #bubbleheadings {
+        font-size: 14px;
+    }
+
+    .captioninfo {
+        width: 98%;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    .captiontopcontent span.maintitle {
+        font-size: 2rem;
+    }
+
+    #icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    #webdesign {
+        padding: 50px 20px;
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    #div1 {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #mobilenav {
+        display: inline-block;
+    }
+
+    .captiontopcontent span.mainheadertext {
+        font-size: 18px;
+    }
+
+    #socialmedia1 {
+        padding: 10px 10px;
+    }
+
+    #JMlogocontainer {
+        padding: 10px 10px;
+    }
+
+    #topcontent {
+        height: 60px;
+    }
+
+    #JMlogo {
+        width: 40px;
+        height: 34px;
+    }
+
+    #mobilenav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #00ded1;
+        border: 5px solid #fff;
+        left: 38px;
+        top: -16px;
+        width: 80px;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    #mobilenav li {
+        text-align: center;
+        width: 80px;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    #mobilenav:hover ul {
+        display: block;
+    }
+
+    #para1 {
+        padding: 50px 50px;
+        text-align: justify;
+    }
+
+    #para2 {
+        padding: 50px 5px;
+        text-align: justify;
+    }
+
+    #hi {
+        padding: 50px 50px;
+    }
+
+    #clothing {
+        padding: 50px 50px;
+    }
+
+    #videos {
+        padding: 50px 50px;
+    }
+
+    #gallery {
+        padding: 50px 50px;
+    }
+
+    #spreadshirtdesigner {
+        height: 1000px;
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+
+
+    #socialmedia1 {
+        color: #fff;
+        padding: 10px 20px;
+        text-align: right;
+    }
+
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    #videowidthheight {
+    width: 100%;
+    height: 100%;
+    }
+}
+        #mobilenav li:hover {
+        background:#fff;
+    }
+
+@media only screen and (max-width : 580px) {
+    .captiontopcontent span.mainheadertext {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .captiontopcontent span.maintitle {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .home {
+        min-height: 720px;
+    }
+
+    #titlespacing {
+        margin-top: 25%;
+    }
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    #div1 {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #mobilenav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        background: #00ded1;
+        border: 5px solid #fff;
+        right: 38px;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    #mobilenav li {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;    
+
+    }
+
+
+
+    #mobilenav:hover ul {
+        display: block;
+    }
+
+    #para1 {
+        padding: 50px 5px;
+        text-align: justify;
+    }
+
+    #para2 {
+        padding: 50px 5px;
+        text-align: justify;
+    }
+
+    #hi {
+        padding: 50px 25px;
+    }
+
+    #clothing {
+        padding: 50px 5px;
+    }
+
+    #videos {
+        padding: 50px 25px;
+    }
+
+    #gallery {
+        padding: 50px 25px;
+    }
+
+    #spreadshirtdesigner {
+        height: 1000px;
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    #redbubbledesigns3 {
+        display: inline-block;
+    }
+
+    #redbubbledesigns2 {
+        display: none;
+    }
+
+    #redbubbledesigns1 {
+        display: none;
+    }
+
+    #socialmedia1 {
+        color: #fff;
+        padding: 10px 20px;
+        text-align: right;
+    }
+
+    #videowidthheight {
+    width: 100%;
+    height: 100%;
+    }
+
+    #galleryresize {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 340px) {
+
+    #menu-icon {
+        display: inline-block;
+    }
+
+    .home {
+        min-height: 770px;
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    #div1 {
+        display: none;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #mobilenav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #00ded1;
+        border: 5px solid #fff;
+        right: 38px;
+        top: 97px;
+        width: 20%;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    #mobilenav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    #mobilenav:hover ul {
+        display: block;
+    }
+
+    #para1 {
+        padding: 50px 5px;
+        text-align: justify;
+    }
+
+    #para2 {
+        padding: 50px 5px;
+        text-align: justify;
+    }
+
+    #hi {
+        padding: 50px 25px;
+    }
+
+    #clothing {
+        padding: 50px 5px;
+    }
+
+    #videos {
+        padding: 50px 25px;
+    }
+
+    #gallery {
+        padding: 50px 25px;
+    }
+
+    #spreadshirtdesigner {
+        height: 1000px;
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    #redbubbledesigns3 {
+        display: inline-block;
+    }
+
+    #redbubbledesigns2 {
+        display: none;
+    }
+
+    #redbubbledesigns1 {
+        display: none;
+    }
+
+    #socialmedia1 {
+        color: #fff;
+        padding: 10px 20px;
+        text-align: right;
+    }
+
+    #videowidthheight {
+    width: 100%;
+    height: 100%;
+    }
+
+    #galleryresize {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-height : 800px) {
+#titlespacing{
+    margin:3%;
+}
+#headerimg {
+    width: 50%;
+}
+#headerimgcontainer {
+        width: 50%;
+        margin-left: 37%;
+        margin-right: 37%;
+        position: absolute;
+        bottom: -10px;
+    }
+}
+
+@media only screen and (max-height : 800px) {
+#titlespacing{
+    margin:3%;
+}
+#headerimg {
+    width: 50%;
+}
+#headerimgcontainer {
+        width: 50%;
+        margin-left: 37%;
+        margin-right: 37%;
+        position: absolute;
+        bottom: -10px;
+    }
+}
+
+
+
+@media only screen and (max-height : 800px) and (max-width:1200px) {
+#titlespacing{
+    margin:3%;
+}
+#headerimg {
+    width: 100%;
+}
+#headerimgcontainer {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: absolute;
+        bottom: -8px;
+    }
+}
